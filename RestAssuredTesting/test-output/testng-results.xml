@@ -2,24 +2,24 @@
 <testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-16T05:06:22Z" name="Default suite" finished-at="2022-03-16T05:06:40Z" duration-ms="17667">
+  <suite started-at="2022-03-16T09:24:53Z" name="Default suite" finished-at="2022-03-16T09:25:11Z" duration-ms="17767">
     <groups>
     </groups>
-    <test started-at="2022-03-16T05:06:22Z" name="Default test" finished-at="2022-03-16T05:06:40Z" duration-ms="17667">
+    <test started-at="2022-03-16T09:24:53Z" name="Default test" finished-at="2022-03-16T09:25:11Z" duration-ms="17767">
       <class name="RestTesting.Ecommerce">
-        <test-method signature="signup()[pri:0, instance:RestTesting.Ecommerce@53251a66]" started-at="2022-03-16T10:36:22Z" name="signup" finished-at="2022-03-16T10:36:31Z" duration-ms="8912" status="PASS">
+        <test-method signature="signup()[pri:0, instance:RestTesting.Ecommerce@53251a66]" started-at="2022-03-16T14:54:53Z" name="signup" finished-at="2022-03-16T14:55:02Z" duration-ms="9095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method signature="Login()[pri:1, instance:RestTesting.Ecommerce@53251a66]" started-at="2022-03-16T10:36:31Z" name="Login" finished-at="2022-03-16T10:36:35Z" duration-ms="3980" status="PASS">
+        <test-method signature="Login()[pri:1, instance:RestTesting.Ecommerce@53251a66]" started-at="2022-03-16T14:55:02Z" name="Login" finished-at="2022-03-16T14:55:06Z" duration-ms="4083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="getallusers()[pri:2, instance:RestTesting.Ecommerce@53251a66]" started-at="2022-03-16T10:36:35Z" name="getallusers" finished-at="2022-03-16T10:36:38Z" duration-ms="3000" status="PASS">
+        <test-method signature="getallusers()[pri:2, instance:RestTesting.Ecommerce@53251a66]" started-at="2022-03-16T14:55:06Z" name="getallusers" finished-at="2022-03-16T14:55:09Z" duration-ms="2782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getallusers -->
-        <test-method signature="delete()[pri:3, instance:RestTesting.Ecommerce@53251a66]" started-at="2022-03-16T10:36:38Z" name="delete" finished-at="2022-03-16T10:36:40Z" duration-ms="1744" status="PASS">
+        <test-method signature="delete()[pri:3, instance:RestTesting.Ecommerce@53251a66]" started-at="2022-03-16T14:55:09Z" name="delete" finished-at="2022-03-16T14:55:11Z" duration-ms="1785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete -->

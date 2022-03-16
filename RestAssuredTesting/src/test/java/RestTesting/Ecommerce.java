@@ -2,7 +2,7 @@ package RestTesting;
 
 import org.testng.annotations.Test;
 
-import com.fasterxml.jackson.databind.util.JSONPObject;
+
 
 import static io.restassured.RestAssured.given;
 
@@ -16,16 +16,17 @@ public class Ecommerce {
 	 public static String baseurl = "https://ecommerceservice.herokuapp.com/";
 	 public static String message;
 		public static String accesstoken;
-		private Object id;
+		//private Object id;
+		public static String id;
 		
 	 
-	 @Test(priority = 0)
+	 @Test(priority = 0,enabled=false)
 		public void signup()
 		{
 			RestAssured.baseURI =baseurl;
 			
 		String 	requestbody = "{\n"
-				+ "	\"email\": \"Amit7745jjim0ri@gmail.com\",\n"
+				+ "	\"email\": \"suuooop@gmail.com\",\n"
 				+ "	\"password\": \"krishna@123\"\n"
 				+ "}";
 		
@@ -50,13 +51,13 @@ public class Ecommerce {
 	}
 		
 		
-		@Test(priority = 1)
+		@Test(priority = 0)
 		public void Login()
 		{
 			RestAssured.baseURI =baseurl;
 			
 		String 	requestbody = "{\n"
-				+ "	\"email\": \"Amit7745jjim0ri@gmail.com\",\n"
+				+ "	\"email\": \"suuooop@gmail.com\",\n"
 				+ "	\"password\": \"krishna@123\"\n"
 				+ "}";
 		
@@ -81,7 +82,7 @@ public class Ecommerce {
 		
 
 		}
-		@Test(priority = 2)
+		@Test(priority = 1)
 		 public void getallusers()
 		 {
 			RestAssured.baseURI =baseurl;
@@ -108,10 +109,11 @@ public class Ecommerce {
 			System.out.println("users 20 is:"+id);
 			
 		 }
-		@Test(priority = 3)
+		@Test(priority = 2)
 		 public void delete()
 		 {
 			RestAssured.baseURI =baseurl;
+			
 			
 			Response resposne = given()
 					.header("Content-Type","application/json")
