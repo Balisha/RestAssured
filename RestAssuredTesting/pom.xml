@@ -25,7 +25,6 @@
       </plugins>
     </pluginManagement>
   </build>
-
 <dependencies>
 <dependency>
       <groupId>io.rest-assured</groupId>
